@@ -1,0 +1,569 @@
+
+
+.container{
+    width: 1300px;
+    height: 800px;
+    background-color:white;
+    margin: 150px auto;
+}
+
+.element{
+    padding-top: 30px;
+}
+.element_child{
+    padding-left: 70px;
+   display: flex;
+}
+
+.element_child_grandchild{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+}
+.element1_child1{
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+.element1_child1 ul{
+    padding-left: 140px;
+    gap: 30px;
+    display: flex;
+    list-style: none;
+}
+.element1_child2_button1{
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 100px;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+.element1_child1_button2{
+    padding: 5px 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 2px solid red;
+    color: red;
+}
+.element2{
+    padding-left: 70px;
+    padding-top: 100px;
+}
+.child1{
+    font-size: 50px;
+}
+.child2{
+    font-size: 50px;
+}
+.child3{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.678);
+}
+.child4{
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.678);
+}
+.element2_button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    background: linear-gradient(red);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px red;
+    ;
+}
+.element2{
+    display: flex;
+}
+.parent2{
+    padding-top: 100px;
+}
+
+.parent1 img{
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+.element3{
+    display: flex;
+    width: 900px;
+    height: 100px;
+    background-color:white;
+    margin: 100px auto;
+    gap: 80px;
+    padding-top: 70px;
+    box-shadow: 1px 10px rgba(0, 0, 0, 0.47);
+}
+.element3_child{
+    padding-left: 150px;
+}
+.element3_child2{
+    padding-left: 150px;
+}
+.element3_child3{
+    padding-left: 150px;
+}
+.element4{
+    display: flex;
+}
+.element4_child5{
+    display: flex;
+    margin-top: 20px;
+}
+.element4_child6{
+    display: flex;
+    margin-top: 20px;
+}
+.element4_child7{
+    display: flex;
+    margin-top: 20px;
+}
+.element4_parent{
+    margin-left: 130px;
+    margin-top: 100px;
+}
+.element4_child1{
+    font-size: 40px;
+}
+.element4_child2{
+    font-size: 40px;
+}
+.element4_child3{
+    margin-top: 25px;
+}
+.element4_child4{
+    margin-top: 6px;
+}
+.element4_child8{
+    display: flex;
+    margin-top: 20px;
+}
+.element5{
+    width:1300px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.101);
+    margin-top: 150px;
+}
+.element5_child{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.element5_child1{
+    text-align: center;
+    padding-top: 20px;
+}
+.element5_child2{
+    text-align: center;
+    padding-top: 5px;
+}
+.element5_parent_child1{
+    width: 330px;
+    height: 700px;
+    background-color: white;
+    border: 3px solid rgba(0, 0, 0, 0.196);
+    margin-top: 100px;
+
+}
+.element5_parent_child1:hover{
+    border: 3px solid red;
+}
+
+.chils{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.element5_parent_child1_grandchild2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.element5_parent_child1_grandchild3{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.element5_parent_child1_grandchild4{
+    display: flex;
+    margin-top: 15px;
+}
+.element5_parent_child1_grandchild5{
+    display: flex;
+    margin-top: 10px;
+}
+ .element5_parent_child1_grandchild1{
+    padding-top: 25px;
+    text-align: center;
+ }
+ .element5_yozuv{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+ }
+ .element5_button{
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+ }
+     .element5_parent{
+        display:flex ;
+     }
+     .element5_parent_child2{
+        width: 330px;
+        height: 700px;
+        background-color: white;
+        border: 3px solid rgba(0, 0, 0, 0.196);
+        margin-left: 150px;
+        margin-top: 100px;  
+     }
+     .element5_parent_child2:hover{
+        border: 3px solid red;
+     }
+     .element5_parent_child3{
+        width: 330px;
+        height: 700px;
+        background-color: white;
+        border: 3px solid rgba(0, 0, 0, 0.196);
+        margin-left: 150px;
+        margin-top: 100px;
+     }
+     .element5_parent_child3:hover{
+        border: 3px solid red;
+     }
+     span{
+        color: rgba(0, 0, 0, 0.314);
+     }
+     .element6{
+        width:1300px;
+        height: 1000px;
+        background-color: white;
+     }
+     .element6_parent{
+        display: flex;
+        margin-top: 50px;
+        
+     }
+     .element6_child1{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+        transition: 2s linear;
+     }
+     .element6_child1:hover{
+        transform: translate(500px);
+     }
+     .element6_child2{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+        margin-top: 100px;
+        transition: 2s linear;
+     }
+     .element6_child2:hover{
+        transform: translate(300px,400px);
+     }
+     .element6_child3{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+        margin-top: 200px;
+        transition:2s linear;
+     }
+     .element6_child3:hover{
+        transform: translateX(700px,);
+     }
+     .element6_child4{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+        margin-top: 300px;
+        transition: 2s linear;
+     }
+     .element6_child4:hover{
+        transform: translate(400px,200px);
+     }
+     .element6_child5{
+        width: 30px;
+        height: 30px;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+        margin-left: 400px;
+        margin-top: 600px;
+        transition: 2s linear;
+     }
+     .element6_child5:hover{
+        transform: translateX(600px);
+     }
+     .element6_child6{
+        width: 30px;
+        height: 30px;
+        margin-top: 400px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+        transition: 2s linear;
+    }
+    .element6_child6:hover{
+        transform: translate(300px,300px);
+    }
+    .element6_child7{
+        width: 30px;
+        height: 30px;
+        margin-top: 250px;
+        background-color: white;
+        margin-left: 100px;
+        border-radius: 100px;
+        border: 2px solid red;
+        transition: 2s linear;
+    }
+    .element6_child7:hover{
+        transform: translateX(400px,);
+    }
+    .element6_child8{
+        width: 30px;
+        height: 30px;
+        margin-top: 300px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+        transition: 2s linear;
+    }
+    .element6_child8:hover{
+        transform: translate(500px,500px);
+    }
+    .element6_child9{
+        width: 30px;
+        height: 30px;
+        margin-top: 500px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+    }
+    .element6_child10:hover{
+        transform: translateX(600px);
+    }
+    .element6_child10{
+        width: 30px;
+        height: 30px;
+        margin-top: 500px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid red;
+        transition: 2s linear;
+    }
+    .element6_child11{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 100px;
+        margin-left: 200px;
+        border: 2px solid red;
+        transition: 2s linear;
+    }
+    .element6_child11:hover{
+        transform: translate(400px,500px);
+    }
+    .element6_child0{
+        margin-top: 150px;
+        text-align: center;
+        font-size: 50px;
+     }
+     .element6_child01{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 50px;
+     }
+     .element6_child05{
+        margin-top: 25px;
+        text-align: center;
+     }
+     .element6_child010{
+        text-align: center;
+     }
+     .element6_grandchild img{
+        margin-top: 50px;
+        margin-left: 40px;
+     }
+     .element7{
+        width: 1300px;
+        height: 500px;
+        background-color: white;
+        margin-top: 150px;
+        text-align: center;
+     }
+     .element7_child{
+         text-align: center;
+         padding-top:50px;
+         font-size: 30px;
+     }
+     .element7_child1{
+        text-align: center;
+          font-size: 30px;
+     }
+     .element7_child2{
+        padding-top: 25px;
+      text-align: center;
+
+     }
+     .element7_child3{
+        padding-top: 7px;
+        text-align: center;
+     }
+     .element7_parent{
+        padding-top: 50px;
+     }
+     .element7_parent_1{
+        width: 300px;
+        height: 180px;
+        background-color: white;
+        margin-left: 170px;
+        border-radius: 10px;
+     }
+     .element7_parent_1:hover{
+        border: 3px solid red;
+     }
+     .element7_parent_1 img{
+        padding-left: 10px;
+        padding-top: 20px;
+     }
+     .element7_yozuv{
+        text-align: center;
+     }
+     .element7_yozuv1{
+        text-align: center;
+        padding-top: 5px;
+     }
+     .element7_yozuv2{
+        text-align: center;
+        padding-top: 5px;
+     }
+     .element7_yozuv3{
+        text-align: center;
+        padding-top: 5px;
+     }
+     .element7_parent_2{
+        width: 300px;
+        height: 180px;
+        background-color: white;
+        margin-left: 20px;
+        border-radius: 10px;
+     }
+     .element7_parent_2:hover{
+        border: 3px solid red;
+     }
+     .element7_parent_2 img{
+        padding-left: 10px;
+        padding-top: 20px;
+     }
+     .element7_parent{
+        display: flex;
+     }
+     .element7_parent_3{
+        width: 300px;
+        height: 180px;
+        background-color: white;
+        margin-left: 20px;
+        border-radius: 10px;
+     }
+     .element7_parent_3:hover{
+        border: 3px solid red;
+     }
+     .element7_parent_3 img{
+        padding-left: 10px;
+        padding-top: 20px;
+     }
+     .element8{
+         display: flex;
+        width: 900px;
+        height: 250px;
+        background-color: white;
+        margin-left: 200px;
+        margin-top: 100px;
+        box-shadow: 5px 5px 15px 1px black;
+     }
+     .element8_child{
+       padding-top: calc(110px - 20px);
+       padding-left: 40px;
+     }
+     .element8_child_grandchild1{
+        font-size: 40px;
+     }
+     .element8_child_grandchild2{
+        font-size: 40px;
+     }
+     .element8_child_grandchild3{
+        margin-top: 10px;
+     }
+     .element8_parent{
+        margin-top: 150px;
+        margin-left: 300px;
+     }
+     .button{
+        width: 170px;
+        height: 40px;
+        background-color: red;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 0px red;
+     }
+     .element9{
+      display: flex;
+        width: 900px;
+        height: 250px;
+        background-color: white;
+        margin-left: 200px;
+        margin-top: 100px;
+     }
+     .element9_parent{
+        display: flex;
+     }
+     .element9_qul{
+      display: flex;
+        padding-top: 10px;
+        padding-left: 5px;
+     }
+     .element9_qul1{
+        padding-top: 20px;
+     }
+
+     .element_facebook{
+        display: flex;
+     }
+     .element9_qul3{
+        margin-top: 40px;
+        padding-left: 5px;
+     }
+     .element9_qul4{
+        margin-top: 40px;
+        padding-left: 5px;
+     }
+     .element9_qul5{
+        margin-top: 40px;
+        padding-left: 5px;
+     }
+     .element9_qul6{
+        margin-top: 40px;
+        color:black;
+     }
